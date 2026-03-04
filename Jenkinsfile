@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("execute"){
             steps{
-	    	java demo
+	    	bat 'java demo.java'
             echo "test successfull without any error"
             }
         }
